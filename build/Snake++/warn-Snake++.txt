@@ -1,0 +1,70 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean these modules are required for running your program. Both
+Python's standard library and 3rd-party Python packages often conditionally
+import optional modules, some of which may be available only on certain
+platforms.
+
+Types of import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named 'collections.abc' - imported by _colorize (top-level), typing (top-level), traceback (top-level), logging (top-level), selectors (top-level), http.client (top-level), importlib.resources.readers (top-level), inspect (top-level), tracemalloc (top-level), webview (top-level), wsgiref.types (top-level), webview.window (top-level), webview.menu (top-level)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named posix - imported by posixpath (optional), shutil (conditional), importlib._bootstrap_external (conditional), pathlib._os (optional), os (conditional, optional)
+missing module named resource - imported by posix (top-level)
+missing module named fcntl - imported by pathlib._os (optional), subprocess (optional)
+missing module named grp - imported by shutil (delayed, optional), tarfile (optional), pathlib (optional), subprocess (delayed, conditional, optional)
+missing module named pwd - imported by posixpath (delayed, conditional, optional), shutil (delayed, optional), tarfile (optional), pathlib (optional), netrc (delayed, optional), subprocess (delayed, conditional, optional), http.server (delayed, optional)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional)
+missing module named _posixsubprocess - imported by subprocess (conditional)
+missing module named 'cryptography.x509' - imported by webview (delayed, optional)
+missing module named 'cryptography.hazmat' - imported by webview (delayed, optional)
+missing module named cryptography - imported by webview (delayed, optional)
+missing module named typing_extensions - imported by webview.http (top-level), webview.window (top-level), webview.event (top-level), webview.dom.event (top-level), webview.state (top-level), webview.guilib (top-level)
+missing module named vms_lib - imported by platform (delayed, optional)
+missing module named 'java.lang' - imported by platform (delayed, optional)
+missing module named java - imported by platform (delayed)
+missing module named WebBrowserInterop - imported by webview.platforms.mshtml (top-level)
+missing module named 'System.Windows' - imported by webview.platforms.edgechromium (top-level), webview.platforms.mshtml (top-level)
+missing module named 'Microsoft.Web' - imported by webview.platforms.edgechromium (top-level)
+missing module named 'System.Globalization' - imported by webview.platforms.edgechromium (top-level)
+missing module named 'System.Diagnostics' - imported by webview.platforms.edgechromium (top-level)
+missing module named 'System.Collections' - imported by webview.platforms.edgechromium (top-level)
+missing module named cefpython3 - imported by webview.platforms.cef (top-level)
+missing module named 'System.Threading' - imported by webview.platforms.winforms (top-level), webview.platforms.edgechromium (top-level)
+missing module named 'System.Reflection' - imported by webview.platforms.winforms (top-level)
+missing module named 'System.Drawing' - imported by webview.platforms.winforms (top-level), webview.platforms.edgechromium (top-level)
+missing module named Microsoft - imported by webview.platforms.winforms (top-level)
+missing module named System - imported by webview.platforms.winforms (top-level), webview.platforms.edgechromium (top-level), webview.platforms.mshtml (top-level)
+missing module named clr - imported by webview.platforms.winforms (optional), webview.platforms.edgechromium (optional), webview.platforms.mshtml (optional)
+missing module named UniformTypeIdentifiers - imported by webview.platforms.cocoa (delayed, conditional, optional)
+missing module named PyObjCTools - imported by webview.platforms.cocoa (top-level)
+missing module named objc - imported by webview.platforms.cocoa (top-level)
+missing module named WebKit - imported by webview.platforms.cocoa (top-level)
+missing module named Foundation - imported by webview.platforms.cocoa (top-level)
+missing module named AppKit - imported by webview.platforms.cocoa (top-level)
+missing module named 'PyQt5.QtWebKitWidgets' - imported by webview.platforms.qt (optional)
+missing module named PyQt5 - imported by webview.platforms.qt (optional)
+missing module named 'qtpy.QtWebEngineWidgets' - imported by webview.platforms.qt (optional)
+missing module named 'qtpy.QtWebEngineCore' - imported by webview.platforms.qt (optional)
+missing module named 'qtpy.QtWebChannel' - imported by webview.platforms.qt (optional)
+missing module named 'qtpy.QtNetwork' - imported by webview.platforms.qt (optional)
+missing module named 'qtpy.QtWidgets' - imported by webview.platforms.qt (top-level)
+missing module named 'qtpy.QtGui' - imported by webview.platforms.qt (top-level)
+missing module named 'qtpy.QtCore' - imported by webview.platforms.qt (top-level)
+missing module named qtpy - imported by webview.platforms.qt (top-level)
+missing module named 'gi.repository' - imported by webview.platforms.gtk (top-level)
+missing module named gi - imported by webview.platforms.gtk (top-level)
+missing module named 'android.activity' - imported by webview.platforms.android.app (top-level), webview.platforms.android.base (top-level)
+missing module named jnius - imported by webview.platforms.android (top-level), webview.platforms.android.jclass.app (top-level), webview.platforms.android.jclass.content (top-level), webview.platforms.android.jclass.net (top-level), webview.platforms.android.jclass.os (top-level), webview.platforms.android.jclass.view (top-level), webview.platforms.android.jclass.webkit (top-level), webview.platforms.android.jinterface.pywebview (top-level), webview.platforms.android.jinterface.view (top-level), webview.platforms.android.jinterface.webkit (top-level)
+missing module named 'android.runnable' - imported by webview.platforms.android (top-level), webview.platforms.android.app (top-level), webview.platforms.android.base (top-level)
+missing module named android - imported by webview.platforms.android (top-level)
+missing module named bottle - imported by webview.http (top-level)
+missing module named proxy_tools - imported by webview (top-level)
