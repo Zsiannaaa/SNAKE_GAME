@@ -22,9 +22,10 @@ DARK_OVERLAY = (0, 0, 0, 180)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake Game")
 clock = pygame.time.Clock()
-font_large = pygame.font.SysFont("consolas", 48, bold=True)
-font_med = pygame.font.SysFont("consolas", 24)
-font_small = pygame.font.SysFont("consolas", 18)
+font_large = pygame.font.Font(None, 48)
+font_large.set_bold(True)
+font_med = pygame.font.Font(None, 24)
+font_small = pygame.font.Font(None, 18)
 
 
 def draw_grid():
